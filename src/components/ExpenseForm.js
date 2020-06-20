@@ -85,6 +85,7 @@ export default class ExpenseForm extends React.Component {
                 onFocusChange={this.onFocusChange}
                 numberOfMonths={1}
                 isOutsideRange={() => false}
+                showClearDate={true}
               />
                <textarea
                 value={this.state.note}
